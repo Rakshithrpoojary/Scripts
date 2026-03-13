@@ -1,0 +1,6 @@
+id, fname, lname, dept, salary
+1, Rahul, Sharma, IT, 75000
+2, Priya, Nair, HR, 62000
+3, Amit, Verma, Finance, 80000
+4, Neha, Rao, Marketing, 70000
+5, Kiran, Das, Operations, 68000

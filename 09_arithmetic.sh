@@ -1,7 +1,7 @@
 #!/bin/bash
-x=10
-y=20
-let z=x*y
+declare -i x=10
+declare -i y=20
+declare -i z=x*y
 echo $z
-let sum=x+y
+declare -i sum=x+y
 echo $sum

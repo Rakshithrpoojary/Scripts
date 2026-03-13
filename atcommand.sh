@@ -3,9 +3,10 @@ at 10:26 UTC
 bash pathtoscript
 ctrl D
 
+ls -l | wc -l # total files count
 
-to check the job do 'atq'
-Remove the job 'atrm id' id we get when we do atq
+#to check the job do 'atq'
+#Remove the job 'atrm id' id we get when we do atq
 
 
 ________________________________
