@@ -157,3 +157,49 @@
 #  you can check using 
 #  ls -li hh
 #  ls -li Scripts/hii.txt
+
+# a=(3 4 1 2 6 5 7)
+# sorted_array=($(for i in "${a[@]}"; do echo $i; done | sort -n))
+# echo ${sorted_array[@]}
+# length=${#sorted_array[*]}
+
+# echo "Largest ${sorted_array[$length-1]}"
+# echo "Second largest ${sorted_array[$length-2]}"
+
+# for data in $(cat hi.txt )
+# do
+#     echo $data
+#     done
+# uniq -d hi.txt this showes the duplicate lines
+# uniq hi.txt this showes only unique lines
+
+# counts=$(wc < hi.txt)
+# echo $counts
+
+# top -bn1 | awk '{print $9}' | egrep -v "average:|stopped,|id,|used,|6816.9" |head -5
+# top -bn1 -o %MEM | head -12 | tail -5
+
+# find . -type f  -mtime 1
+# find . -type f -exec du -h {} + | sort -rh | head -3
+# find . -type f -exec ls -l {} + | sort -k5 -nr | head -3
+
+# awk -f sumavera.awk hi.txt
+
+# find . -type f | wc -l
+#  for i in {1..100}
+#  do
+#  declare -i divisibleby3=i%3
+#  declare -i divisibleby5=i%5
+#  if [[ $divisibleby3 -eq 0  ||  $divisibleby5 -eq 0 ]]
+# then 
+#  echo $i
+#  fi
+#  done
+
+# find . -type f name "*.txt" -exec {}  | mv "*.txt" "*.bck" 
+
+# for files in /home/rakpooja/Scripts/*.bak;
+# do
+#  mv $files ${files%.bak}.txt
+# done
+
