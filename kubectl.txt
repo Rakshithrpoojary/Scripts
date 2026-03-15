@@ -1,0 +1,5 @@
+NAME      READY   STATUS    RESTARTS   AGE
+mongo-0   1/1     Running   0          61m
+mongo-1   1/1     failed   0          36m
+mongo-2   1/1     Running   0          35m
+mongo-3   1/1     Running   0          35m
